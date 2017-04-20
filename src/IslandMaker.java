@@ -8,7 +8,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class IslandCreator {
+public class IslandMaker {
 	static JFrame IslandBoard;
 	static Container pane;
 	static JLabel tile[][];
@@ -481,55 +481,55 @@ public class IslandCreator {
 	public static ImageIcon pic(String place){
 		ImageIcon icon = null;
 		if(place.equals("ocean")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\Ocean.png");
+			icon = new ImageIcon("data\\Ocean.png");
 		}else if (place.equals("plain")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\Plain.png");
+			icon = new ImageIcon("data\\Plain.png");
 		}else if (place.equals("mountain")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\Mountain.png");
+			icon = new ImageIcon("data\\Mountain.png");
 		}else if (place.equals("volcano")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\Volcano.png");
+			icon = new ImageIcon("data\\Volcano.png");
 		}else if (place.equals("river")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\River.png");
+			icon = new ImageIcon("data\\River.png");
 		}else if (place.equals("lake")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\Lake.png");
+			icon = new ImageIcon("data\\Lake.png");
 		}else if (place.equals("forest")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\Forest.png");
+			icon = new ImageIcon("data\\Forest.png");
 		}else if (place.equals("beach")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\Beach.png");
+			icon = new ImageIcon("data\\Beach.png");
 		}
 		else if(place.equals("wocean")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\WOcean.png");
+			icon = new ImageIcon("data\\WOcean.png");
 		}else if (place.equals("wplain")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\WPlain.png");
+			icon = new ImageIcon("data\\WPlain.png");
 		}else if (place.equals("wmountain")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\WMountain.png");
+			icon = new ImageIcon("data\\WMountain.png");
 		}else if (place.equals("wvolcano")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\WVolcano.png");
+			icon = new ImageIcon("data\\WVolcano.png");
 		}else if (place.equals("wriver")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\WRiver.png");
+			icon = new ImageIcon("data\\WRiver.png");
 		}else if (place.equals("wlake")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\WLake.png");
+			icon = new ImageIcon("data\\WLake.png");
 		}else if (place.equals("wforest")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\WForest.png");
+			icon = new ImageIcon("data\\WForest.png");
 		}else if (place.equals("wbeach")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\WBeach.png");
+			icon = new ImageIcon("data\\WBeach.png");
 		}
 		else if(place.equals("focean")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\FOcean.png");
+			icon = new ImageIcon("data\\FOcean.png");
 		}else if (place.equals("fplain")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\FPlain.png");
+			icon = new ImageIcon("data\\FPlain.png");
 		}else if (place.equals("fmountain")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\FMountain.png");
+			icon = new ImageIcon("data\\FMountain.png");
 		}else if (place.equals("fvolcano")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\FVolcano.png");
+			icon = new ImageIcon("data\\FVolcano.png");
 		}else if (place.equals("friver")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\FRiver.png");
+			icon = new ImageIcon("data\\FRiver.png");
 		}else if (place.equals("flake")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\FLake.png");
+			icon = new ImageIcon("data\\FLake.png");
 		}else if (place.equals("fforest")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\FForest.png");
+			icon = new ImageIcon("data\\FForest.png");
 		}else if (place.equals("fbeach")){
-			icon = new ImageIcon("C:\\Users\\AdminPiland\\Documents\\HackDay\\FBeach.png");
+			icon = new ImageIcon("data\\FBeach.png");
 		}
 		return icon;
 	}
